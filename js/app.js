@@ -1,14 +1,14 @@
-let minut = +prompt("timer:");
+let minut = +prompt("timer_yozvor:");
 let soniya = minut * 60;
 
 let vaqt = setInterval(function () {
-  let m = Math.floor(soniya / 60);
-  let s = soniya % 60;
+  let mlisec = Math.floor(soniya / 60);
+  let sec = soniya % 60;
 
-  m = String(m).padStart(2, "0");
-  s = String(s).padStart(2, "0");
+  mlisec = String(m).padStart(2, "0");
+  sec = String(s).padStart(2, "0");
 
-  console.log(m + ":" + s);
+  console.log(mlisec + ":" + sec);
 
   soniya--;
 
