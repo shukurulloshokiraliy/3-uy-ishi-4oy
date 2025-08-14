@@ -14,6 +14,5 @@ let vaqt = setInterval(function () {
 
   if (soniya < 0) {
     clearInterval(vaqt);
-    console.log("Tayyor!");
   }
 }, 1000);
